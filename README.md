@@ -1,4 +1,4 @@
-Credit Risk Analysis - Machine Learning
+# Credit Risk Analysis - Machine Learning
 
 ![Credit Risk](Images/credit-risk.jpg)
 

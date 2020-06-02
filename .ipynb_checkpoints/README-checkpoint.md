@@ -1,4 +1,4 @@
-Credit Risk Analysis - Machine Learning
+# Credit Risk Analysis - Machine Learning
 
 ![Credit Risk](Images/credit-risk.jpg)
 
@@ -28,7 +28,8 @@ Lets build and evaluate several machine-learning models to predict credit risk u
 The [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the LendingClub data and build and evaluate `logistic regression classifiers` using the resampled data.
 
 <details>
-<summary>Resampling the data using imbalanced classification algorithms</summary><br>    
+<summary>Resampling the data using imbalanced classification algorithms</summary><br>
+    
 1. **Oversample** the data using the `Naive Random Oversampler` and `SMOTE` algorithms.<br/>
     Naive Random Oversampler :
       ```python
