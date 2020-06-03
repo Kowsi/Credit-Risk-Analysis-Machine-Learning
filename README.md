@@ -28,7 +28,7 @@ Lets build and evaluate several machine-learning models to predict credit risk u
 The [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the LendingClub data and build and evaluate `logistic regression classifiers` using the resampled data.
 
 <details>
-<summary>Resampling the data using imbalanced classification algorithms</summary><br>
+<summary>Resampling the data for imbalanced dataset</summary><br>
     
 1. **Oversample** the data using the `Naive Random Oversampler` and `SMOTE` algorithms.<br/>
     Naive Random Oversampler :
@@ -102,7 +102,7 @@ Using the above metrics to answer the following:
 > Which model had the best balanced accuracy score? <br/>
 > `Naive Random Oversampler` and `SMOTE`<br/><br/>
 > Which model had the best recall score?<br/>
-> `Naive Random Oversampler` has better recall score for High Risk<br/><br/>
+> `SMOTE` has better recall score<br/><br/>
 > Which model had the best geometric mean score?<br/>
 > `Naive Random Oversampler`
 </details>
@@ -113,9 +113,10 @@ Using the above metrics to answer the following:
 In this section, We will train and compare two different ensemble classifiers to predict loan risk and evaluate each model using the `balanced random forest classifier` and the `easy ensemble AdaBoost classifier`.
 
 <details>
-<summary>Ensemble classification algorithms</summary><br>    
-1. **Balanced Random Forest Classifier**
-    
+<summary>Ensemble classification algorithms</summary><br>
+ 
+ 1. **Balanced Random Forest Classifier**
+
     ```python
         # Ensample the training data with the BalancedRandomForestClassifier
         from imblearn.ensemble import BalancedRandomForestClassifier
@@ -276,9 +277,9 @@ Using the above metrics to answer the following:
 > Which model had the best geometric mean score?<br/>
 >`Easy Ensemble AdaBoost Classifier`<br/><br/>
 > What are the top three features?<br/>
->```python 
- (0.09175752102205247, 'total_rec_prncp'),
- (0.06410003199501778, 'total_pymnt_inv'),
- (0.05764917485461809, 'total_pymnt')
->```
+> ```python 
+>     (0.09175752102205247, 'total_rec_prncp'),
+>     (0.06410003199501778, 'total_pymnt_inv'),
+>     (0.05764917485461809, 'total_pymnt')
+>    ```
 - - -
