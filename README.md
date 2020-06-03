@@ -99,12 +99,18 @@ Models          |  Sampler | Accuracy | Confusion matrix | Classification report
 <summary>Performance Analysis</summary><br>  
 Using the above metrics to answer the following:
 
-> Which model had the best balanced accuracy score? <br/>
-> `Naive Random Oversampler` and `SMOTE`<br/><br/>
-> Which model had the best recall score?<br/>
-> `SMOTE` has better recall score<br/><br/>
-> Which model had the best geometric mean score?<br/>
-> `Naive Random Oversampler`
+> Which model had the best balanced accuracy score?
+> ```python
+>   Naive Random Oversampler & SMOTE
+> ```
+> Which model had the best recall score?
+> ```python
+>   SMOTE
+> ```
+> Which model had the best geometric mean score?
+> ```python
+>   Naive Random Oversampler
+> ```
 </details>
 
 
@@ -168,6 +174,11 @@ Models          |  Accuracy | Confusion matrix | Classification report
     [(0.09175752102205247, 'total_rec_prncp'),
      (0.06410003199501778, 'total_pymnt_inv'),
      (0.05764917485461809, 'total_pymnt'),
+    ```
+    <details>
+    <summary>More</summary><br>   
+    
+    ```
      (0.05729679526683975, 'total_rec_int'),
      (0.05174788106507317, 'last_pymnt_amnt'),
      (0.031955619175665397, 'int_rate'),
@@ -262,6 +273,7 @@ Models          |  Accuracy | Confusion matrix | Classification report
      (0.0, 'acc_now_delinq')]
 
     ```
+    </details>
 
 </details>
 
@@ -270,12 +282,18 @@ Models          |  Accuracy | Confusion matrix | Classification report
     
 Using the above metrics to answer the following:
 
-> Which model had the best balanced accuracy score?<br/>
-> `Easy Ensemble AdaBoost Classifier`<br/><br/>
-> Which model had the best recall score?<br/>
-> `Easy Ensemble AdaBoost Classifier`<br/><br/>
-> Which model had the best geometric mean score?<br/>
->`Easy Ensemble AdaBoost Classifier`<br/><br/>
+> Which model had the best balanced accuracy score?
+> ```python
+>   Easy Ensemble AdaBoost Classifier 
+> ```
+> Which model had the best recall score?
+> ```python
+>   Easy Ensemble AdaBoost Classifier 
+> ```
+> Which model had the best geometric mean score?=
+> ```python
+>   Easy Ensemble AdaBoost Classifier 
+> ```
 > What are the top three features?<br/>
 > ```python 
 >     (0.09175752102205247, 'total_rec_prncp'),
