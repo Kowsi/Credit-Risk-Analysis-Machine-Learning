@@ -115,20 +115,26 @@ In this section, We will train and compare two different ensemble classifiers to
 <details>
 <summary>Ensemble classification algorithms</summary><br>    
 1. **Balanced Random Forest Classifier**
-     ```python
+    
+    ```python
         # Ensample the training data with the BalancedRandomForestClassifier
         from imblearn.ensemble import BalancedRandomForestClassifier
         clf = BalancedRandomForestClassifier(random_state=1)   #default n_esitmators=100
         rfc_model = clf.fit(X_train, y_train)
-     ```
+    ```
+    
+
 2. **Easy Ensemble AdaBoost Classifier**
 
-    ```python
+    
+   ```python
         # Ensample the training data with the EasyEnsembleClassifier
         from imblearn.ensemble import EasyEnsembleClassifier
         clf = EasyEnsembleClassifier(random_state=1, n_estimators=100)
         rfc_model = clf.fit(X_train, y_train)
-     ```
+   ```
+<br/>   
+
 </details>
 
 <details>
