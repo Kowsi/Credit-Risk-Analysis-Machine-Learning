@@ -13,6 +13,13 @@ Lets build and evaluate several machine-learning models to predict credit risk u
 
 - - -
 
+### Library
+
+[imbalanced-learn](https://imbalanced-learn.readthedocs.io/en/stable/api.html) - For resampling the imbalanced Dataset
+[Scikit-learn](https://scikit-learn.org/stable/index.html) - Machine learning in Python
+
+- - -
+
 ### Files
 
 [Resampling Starter Notebook](Starter_Code/credit_risk_resampling.ipynb)
@@ -25,7 +32,7 @@ Lets build and evaluate several machine-learning models to predict credit risk u
 
 ### Resampling
 
-The [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the LendingClub data and build and evaluate `logistic regression classifiers` using the resampled data.
+Using the [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the imbalanced LendingClub dataset and build and evaluate `logistic regression classifiers` using the resampled data.
 
 <details>
 <summary>Resampling the data for imbalanced dataset</summary><br>
