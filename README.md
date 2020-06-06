@@ -6,16 +6,16 @@
 
 Auto loans, mortgages, student loans, debt consolidation ... these are just a few examples of credit and loans that people are seeking online. Peer-to-peer lending services such as LendingClub or Prosper allow investors to loan other people money without the use of a bank. However, investors always want to mitigate risk, so you have been asked by a client to help them use machine learning techniques to predict credit risk.
 
-Lets build and evaluate several machine-learning models to predict credit risk using free data from LendingClub. Credit risk is an inherently `imbalanced classification problem` (the number of good loans is much larger than the number of at-risk loans), so we need to employ different techniques for training and evaluating models with imbalanced classes. Here we use the `imbalanced-learn` and `Scikit-learn` libraries to build and evaluate models using the two following techniques:
+Lets build and evaluate several machine-learning models to predict credit risk using free data from LendingClub. Credit risk is an inherently **`imbalanced classification problem`** (the number of good loans is much larger than the number of at-risk loans), so we need to employ different techniques for training and evaluating models with imbalanced classes. Here we use the `imbalanced-learn` and `Scikit-learn` libraries to build and evaluate models using the two following techniques:
 
-1. [Resampling](#Resampling)
-2. [Ensemble Learning](#Ensemble-Learning)
+1. [Resampling](#Resampling) - the imbalanced dataset 
+2. [Ensemble Learning](#Ensemble-Learning) - make prediction using resampled data
 
 - - -
 
 ### Library
 
-[imbalanced-learn](https://imbalanced-learn.readthedocs.io/en/stable/api.html) - For resampling the imbalanced Dataset
+[imbalanced-learn](https://imbalanced-learn.readthedocs.io/en/stable/api.html) - For resampling the imbalanced Dataset<br/>
 [Scikit-learn](https://scikit-learn.org/stable/index.html) - Machine learning in Python
 
 - - -
